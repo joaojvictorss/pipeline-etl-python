@@ -24,3 +24,49 @@ O script lê uma base de vendas em CSV, aplica um processo de limpeza e transfor
 - [openpyxl](https://openpyxl.readthedocs.io/) — exportação para Excel (usado internamente pelo pandas)
 
 ##  Estrutura do projeto
+pipeline-etl-python/
+├── pipeline_etl.py # Script principal do pipeline
+├── dados_brutos.csv # Dados de entrada (exemplo)
+├── dados_tratados.csv # Saída: dados tratados em CSV
+├── Relatorio_tratado.xlsx # Saída: relatório tratado em Excel
+└── README.md
+
+
+## ▶️ Como executar
+
+1. Clone o repositório:
+```bash
+   git clone https://github.com/joaojvictorss/pipeline-etl-python.git
+   cd pipeline-etl-python
+```
+
+2. Crie e ative um ambiente virtual (opcional, mas recomendado):
+```bash
+   python -m venv venv
+   # Windows
+   .\venv\Scripts\activate
+   # Linux/Mac
+   source venv/bin/activate
+```
+
+3. Instale as dependências:
+```bash
+   pip install pandas openpyxl
+```
+
+4. Execute o script:
+```bash
+   python pipeline_etl.py
+```
+
+##  Possíveis melhorias futuras
+
+- Ler o nome dos arquivos de entrada/saída via linha de comando (argparse)
+- Adicionar testes automatizados (pytest)
+- Gerar um log de execução em arquivo, além do console
+- Adicionar validação de schema mais completa (tipos e formatos esperados)
+
+##  Autor
+
+**João Victor Silva dos Santos**
+Estudante de Engenharia de Software — em transição de carreira para a área de Dados.
