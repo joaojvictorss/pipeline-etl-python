@@ -1,0 +1,6 @@
+id_pedido,cliente,produto,valor,data_venda,nota_avaliacao,categorizar_ticket
+101,Ana Silva,Tenis Corrida,350.0,10/05/2026,5,Valor padrão
+102,Carlos Souza,Produto Genérico,200.0,11/05/2026,3,Valor padrão
+103,Mariana Lima,Camiseta Esportiva,120.0,12/05/2026,1,Padrão
+104,Joao Pedro,Shorts Treino,80.5,13/05/2026,4,Padrão
+105,Beatriz Costa,Mochila Fit,250.0,10/05/2026,2,Valor padrão
